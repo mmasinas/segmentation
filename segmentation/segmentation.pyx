@@ -19,7 +19,7 @@ def read_channel(path, channel='red'):
 
 
 def blur_frame(fr):
-    return gaussian(fr, sigma=2, preserve_range=True).astype(np.uint16)
+    return gaussian(fr, sigma=1.5, preserve_range=True).astype(np.uint16)
 
 
 def blur_channel(channel):

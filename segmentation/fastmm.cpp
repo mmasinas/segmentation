@@ -139,8 +139,8 @@ int cmm (const unsigned short* im, unsigned char* segmented, unsigned int M, uns
 //    const unsigned char Nh = 7; // Neighborhood for averaging
     const double var = 1e8;
     const double learning_rate = 1e-6;
-    const int m_nuc_size = 210;
-    const int m_cell_size = 1900;
+    const int m_nuc_size = 120; // 210
+    const int m_cell_size = 1100; //1900
 
     unsigned char max_iterations = 100; // # Maximum iterations
     unsigned char iter = 0;
