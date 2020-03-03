@@ -34,7 +34,7 @@ cpdef mixture_model(const unsigned short[:, :] im):
     m = im.shape[0]
     n = im.shape[1]
 
-    nuc_num = label(np.greater(im, 110), return_num=True)[1]
+    nuc_num = label(np.greater(im, 500), return_num=True)[1]
     segmented = np.zeros_like(im, dtype=np.uint8) # result
 
     cmm(&im[0, 0], &segmented[0, 0], m, n, nuc_num)
