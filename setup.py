@@ -18,7 +18,7 @@ ext_modules = [
 setup(
     name="segmentation_phenix",
     packages=["segmentation_phenix"],
-    version='0.1.2',
+    version='0.1.3',
     description='Mixture model segmentation for Phenix images',
     author='Matej Usaj',
     author_email='m.usaj@utoronto.ca',
