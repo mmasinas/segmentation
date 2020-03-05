@@ -452,7 +452,7 @@ int main() {
     vector<unsigned char> segmented(get<0>(image).size(), 0);
 //    vector<double> debugarr(get<0>(image).size() * 3, 0);
 
-    cmm(get<0>(image).data(), segmented.data(), get<1>(image), get<2>(image), 200); //59
+    cmm(get<0>(image).data(), segmented.data(), get<1>(image), get<2>(image), 59); //59
 
     return 0;
 }
